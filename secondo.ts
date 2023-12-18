@@ -1,6 +1,3 @@
-// Снова объявили глобальную функцию fnGlobal для использования ее в secondo.ts
-declare var fnGlobal: (param: string) => void;
-
 class Secondo {
     constructor(
         public name: string = '',
